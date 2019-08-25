@@ -8,8 +8,11 @@ void main() {
           title: Text('I am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(
-          image: NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
+        body: Center(
+          child: Image(
+            image:
+                NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
+          ),
         ),
       ),
     ),
